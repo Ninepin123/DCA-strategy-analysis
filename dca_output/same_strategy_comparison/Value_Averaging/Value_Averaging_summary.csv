@@ -1,0 +1,4 @@
+﻿file_name,symbol_name,strategy_name,start_date,end_date,first_invest_date,last_invest_date,total_months_invested,base_monthly_investment,total_invested,total_units,final_price,final_value,profit_loss,total_return_pct,annualized_return_cagr_pct,xirr_pct,avg_cost,price_column_used
+SP500_daily_raw.csv,SP500_daily_raw,Value_Averaging,2005-09-02,2026-04-13,2005-09-02,2026-04-01,248,10000.0,829627.267426,712.406395,6886.240234,4905801.580208,4076174.312782,491.325981,9.005246,10.869865,1164.542139,Adj_Close
+Nikkei225_daily_raw.csv,Nikkei225_daily_raw,Value_Averaging,2005-09-02,2026-04-13,2005-09-02,2026-04-01,248,10000.0,1042041.792663,97.766048,56502.769531,5524052.478125,4482010.685462,430.118131,8.428891,10.111447,10658.524242,Adj_Close
+TAIEX_history.csv,TAIEX_history,Value_Averaging,2005-09-02,2026-04-13,2005-09-02,2026-04-01,248,10000.0,1315876.861601,182.126178,35457.29,6457700.709938,5141823.848336,390.752661,8.023733,11.225694,7225.083599,Adj_Close
