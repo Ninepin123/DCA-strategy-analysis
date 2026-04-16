@@ -100,9 +100,10 @@ metrics = [
 for key, title, pivot, filename in metrics:
     fig, ax = plt.subplots(figsize=(18, 9), dpi=140)
 
-    # 繪製三條線
+    # 繪製三條線（dropna 避免 NaN 導致斷線）
     for col in col_order:
-        ax.plot(pivot.index, pivot[col], label=col, color=colors[col],
+        series = pivot[col].dropna()
+        ax.plot(series.index, series, label=col, color=colors[col],
                 linewidth=1.6, alpha=0.9)
 
     ax.set_title(f"台股 / 日經 / S&P 500  —  {title}\n(2004/09 – 2026/03)",
